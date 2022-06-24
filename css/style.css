@@ -283,7 +283,7 @@ a {
 .tariff {
   min-height: 578px;
 
-  background: grey;
+  background: #3b3b3b;
 }
 
 .tariff__wrapper {
@@ -378,4 +378,161 @@ a {
 
 .page-footer__bottom-link:last-child {
   margin-left: auto;
+}
+
+/* COURSE */
+/* Page-header */
+.page-header--course-background {
+  background-color: #ffffff;
+}
+
+.container--course {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__list--course {
+  justify-content: end;
+}
+
+.navigation__link--course {
+  color: #353a5a;
+}
+
+/* Breadcrumbs */
+.breadcrumbs__list {
+  display: flex;
+}
+
+.breadcrumbs__link {
+  color: #353a5a;
+}
+
+.breadcrumbs__link--current {
+  opacity: 0.5;
+}
+
+/* About-course */
+.about-course {
+  min-height: 1296px;
+}
+
+.about-course__title {
+  margin-bottom: 40px;
+}
+
+.about-course__img {
+  margin-bottom: 40px;
+}
+
+.untensive-description {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: 58px 34px;
+}
+
+.untensive-description__value {
+  grid-row: 1 / 2;
+  margin: 0;
+
+  font-size: 58px;
+  line-height: 58px;
+  color: #10b582;
+  text-align: center;
+}
+
+.untensive-description__attribute {
+  margin: 0 20px;
+
+  text-align: center;
+}
+
+/* Relevance */
+.relevance {
+  min-height: 556px;
+  padding-top: 120px;
+
+  background-color: #10b582;
+}
+
+.relevance__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.relevance__title {
+  color: #fdfdfd;
+}
+
+.relevance__desctiption {
+  color: #fdfdfd;
+}
+
+.relevance__btn {
+  display: block;
+  width: 230px;
+  min-height: 56px;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #fa9f42;
+  border-radius: 0 20px;
+}
+
+/* Skills */
+.skills {
+  min-height: 609px;
+}
+
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  gap: 30px;
+}
+
+.skills__btn {
+  display: block;
+  width: 230px;
+  min-height: 56px;
+
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #10b582;
+  border-radius: 0 20px;
+}
+
+/* Discount */
+.discount {
+  min-height: 578px;
+  padding-top: 120px;
+
+  background-color: #fa9f42;
+}
+
+.discount__wrapper {
+  width: 444px;
+}
+
+.discount__btn {
+  display: block;
+  width: 230px;
+  min-height: 56px;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #fa9f42;
+  border-radius: 0 20px;
+}
+
+/* Questions */
+.questions {
+  min-height: 971px;
+}
+
+.questions__container {
+  width: 930px;
+  min-height: 851px;
 }
