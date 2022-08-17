@@ -659,14 +659,19 @@ img {
 
 .page-footer__list {
   display: flex;
+  justify-content: space-between;
+}
+
+.page-footer__item {
+  width: 175px;
 }
 
 .page-footer__item:nth-child(2) {
-  margin-left: auto;
+  padding-left: 22px;
 }
 
 .page-footer__item:nth-child(3) {
-  margin-left: 79px;
+  padding-left: 43px;
 }
 
 .page-footer__sublist {
